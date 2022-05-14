@@ -16,24 +16,19 @@ header {
     padding-bottom: 24px;
     font-size: 42px;
     font-weight: 900;
-    padding-left: 25px;
+    padding-left: 50px;
     justify-content: space-between;
+    margin-right: 25px;
+    margin-bottom: 100px;
 }
 
 ul {
     display: flex;
     font-size: 24px;
     font-weight: 700;
-    text-align: start;
-    align-items: center;
+    align-items: flex-start;
     list-style-type: none;
     gap: 24px;
-}
-
-.super-left {
-    display: flex;
-    justify-content: start;
-    text-align: start;
 }
 
 a:hover {
@@ -47,30 +42,38 @@ a {
 /*What is superflow?*/
 .super-container {
     display: flex;
-    justify-content: start;
-    align-items: flex-start;
+    flex-direction: row;
+    padding: 25px;
+    margin-left: 150px;
 }
 .super-left {
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: flex-start;
-    text-align: start;
     width: 400px;
     height: 100px;
 }
 .creates {
     display: flex;
-    justify-content: start;
     flex-direction: column;
     list-style-type: square;
-    text-align: start;
 }
 
 .list {
-    margin-left: 50px;
+    margin-left: 50px; 
 }
 
 .list-start {
     font-size: 36px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.logopic {
+    width: 300px;
+    height: 300px;
 }
