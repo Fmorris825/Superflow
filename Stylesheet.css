@@ -6,6 +6,7 @@ body {
         -o-background-size: cover;
         background-size: cover;
     opacity: 0.9;
+    color: ghostwhite;
 }
 /*Header*/
 header {
@@ -32,7 +33,7 @@ ul {
 }
 
 a:hover {
-    color: white;
+    color: greenyellow;
 }
 
 a {
@@ -43,23 +44,25 @@ a {
 .super-container {
     display: flex;
     flex-direction: row;
-    padding: 25px;
-    margin-left: 150px;
+    padding: 15px;
+    margin: 75px;
 }
+
 .super-left {
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height: 100px;
+    width: 500px;
+    padding: 50px;
 }
 .creates {
     display: flex;
     flex-direction: column;
     list-style-type: square;
+    width: 500px;
 }
 
 .list {
-    margin-left: 50px; 
+    margin-left: 25px;
 }
 
 .list-start {
@@ -70,10 +73,13 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 200px;
+    padding: 30px;
 }
 
 .logopic {
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 375px;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0 0 50px #ccc;
 }
